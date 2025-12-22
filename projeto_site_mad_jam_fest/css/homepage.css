@@ -1,0 +1,57 @@
+body{
+  overflow-x: hidden;
+}
+
+p{
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+.container{
+  background-color: #FFFFE0;
+}
+
+.container-imagem {
+  position: relative;
+  width: 100%;
+}
+
+.pergaminho_inicial {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-sobreposto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  width: 70%;
+  margin: 0 auto;
+
+  color: #000;
+}
+
+.texto-sobreposto p{
+  font-size: clamp(8px, 2vw, 25px);
+}
+
+.texto-sobreposto h1{
+  font-size: clamp(13px, 2vw, 30px);
+  margin-bottom: 2px;
+}
+
+@media (max-width: 576px) {
+  .texto-sobreposto {
+    font-size: 16px;
+  }
+}

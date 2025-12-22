@@ -1,0 +1,65 @@
+body{
+    overflow-x: hidden;
+}
+
+/* pôr um container destes em todas as páginas para os elementos da página ficarem limitados nas margens de cima, baixo, direita e esquerda */
+.container_pagina{
+    background-color: white;
+    max-width: 1400px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+@font-face {
+    font-family: 'Special Gothic';
+    src: url('../fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
+}
+
+.textbody1{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 24px;
+}
+
+.titulo1_pagina{
+    font-family: 'Special Gothic';
+    font-size: 100px;
+    text-align: top;
+    text-align: left;
+    color: black;
+}
+
+.faq_item {
+  border-bottom: 7px solid black;
+  margin-bottom: 30px;
+}
+
+.faq_pergunta {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 15px 0;
+  font-family: 'Special Gothic';
+  font-size: 26px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq_pergunta .icon_mais {
+    font-family: 'Special Gothic';
+    font-size: 26px;
+    transition: transform 0.3s ease;
+}
+
+.faq_resposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding-left: 0;
+  font-family: 'Azeret Mono';
+  font-size: 24px;
+}

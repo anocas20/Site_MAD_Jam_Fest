@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <title>Site MAD Jam Fest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Ficheiros JS -->
+    <script src="js/functions.js"></script>
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/59b572f908.js" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/faq.css">
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Footer CSS-->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <script>
+    
+    const faqItens = document.querySelectorAll(".faq_item");
+
+    faqItens.forEach(item => {
+      const pergunta = item.querySelector(".faq_pergunta");
+      const resposta = item.querySelector(".faq_resposta");
+      const icon_mais = pergunta.querySelector(".icon_mais");
+
+      pergunta.addEventListener("click", () => {
+        if (resposta.style.maxHeight) {
+          resposta.style.maxHeight = null;
+          icon_mais.textContent = "+";
+        } else {
+          resposta.style.maxHeight = resposta.scrollHeight + "px";
+          icon_mais.textContent = "-"; 
+        }
+      });
+    });
+
+  
+  </script>
+
+  <div id="sitio_navbar" style="opacity: 0; background-color: #5e1c1c; transition: opacity 0.3s;"></div>
+
+  <div class="container_pagina">
+    <section class="faq">
+      <h1 class="titulo1_pagina">FAQ</h1>
+      <p class="textbody1">Tira as tuas dúvidas aqui!</p>
+
+      <div class="faq_item">
+        <button class="faq_pergunta">
+          O que é uma jam? <span class="icon_mais">+</span>
+        </button>
+        <div class="faq_resposta">
+          <p>Uma jam é um evento colaborativo de criação em que os participantes...</p>
+        </div>
+      </div>
+
+      <div class="faq_item">
+        <button class="faq_pergunta">
+          O que é e como funciona o MAD Jam Fest? <span class="icon_mais">+</span>
+        </button>
+        <div class="faq_resposta">
+          <p>O MAD Jam Fest é...</p>
+        </div>
+      </div>
+
+      <!-- Adiciona mais itens conforme necessário -->
+    </section>
+  </div>
+
+  <div id="sitio_footer" style="opacity: 0; background-color: #5e1c1c; transition: opacity 0.3s;"></div>
+ 
+</body>
+</html>
