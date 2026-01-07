@@ -2,6 +2,14 @@ body{
   overflow-x: hidden;
 }
 
+.titulo1_pagina{
+    font-family: 'Special Gothic';
+    font-size: 100px;
+    text-align: top;
+    text-align: left;
+    color: black;
+}
+
 p{
   margin-left: 30px;
   margin-right: 30px;
