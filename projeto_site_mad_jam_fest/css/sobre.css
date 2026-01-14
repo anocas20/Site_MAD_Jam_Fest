@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Special Gothic';
+    src: url('../fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+}
+
 body{
     overflow-x: hidden;
 }
@@ -10,6 +20,12 @@ body{
     padding-top: 70px;
 }
 
+.textbody1{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 24px;
+
+}
+
 .titulo1_pagina{
     font-family: 'Special Gothic';
     font-size: 100px;
@@ -18,8 +34,71 @@ body{
     color: black;
 }
 
+.videoMAD{
+    width: 500px;
+    overflow: hidden;
+    align-self: right;
+}
+
+#coluna1{
+    flex: 3;
+}
+
+#coluna2{
+    flex: 1;
+}
+
+.info-card {
+    padding: 30px;
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+    border: 10px solid #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_participa-card{
+    padding: 30px;
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+    border: 10px solid #000000;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .modelo_funcionamento{
     background-color: #fdcc00;
     stroke: black;
     stroke-width: 4px;
+}
+
+.datas{
+    font-weight: bold;
+}
+
+.texto_info{
+    font-family: 'Azeret Mono';
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.textbutton{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #FA5302;
+}
+
+.textbutton:hover{
+    transition: 0s;
+    color: white;
+    background-color: black;
 }
