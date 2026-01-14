@@ -76,3 +76,13 @@ body{
   font-family: 'Azeret Mono';
   font-size: 24px;
 }
+
+.faq_resposta a {
+  color: #FA5302;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.faq_resposta a:hover {
+  color: black;
+}
