@@ -4,14 +4,51 @@
     src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
 }
 
-.textbody1{
+.textnavbar{
   font-family: 'Azeret Mono', monospace;
   font-size: 24px;
+  color: #000000;
+  font-weight: bold;
 }
 
-.textbutton{
+.textnavbar:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.botao_navbar{
   font-family: 'Azeret Mono', monospace;
   font-size: 20px;
+  color: white;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #FA5302;
+  margin-right: 80px;
+  margin-top: 31px;
+}
+
+.botao_navbar_animation{
+  background-color: #fe0000;
+}
+
+.botao_navbar_game{
+  background-color: #0f60ff;
+}
+
+.botao_navbar_photo{
+  background-color: #22B751;
+}
+
+.botao_navbar_video{
+  background-color: #AB31AA;
+}
+
+.botao_navbar:hover{
+    transition: 0s;
+    color: white;
+    background-color: black;
 }
 
 .bar1, .bar2, .bar3 {
@@ -36,6 +73,8 @@
 
 .informacao{
   margin-top: 5px;
+  color: black;
+  padding-top: 40px
 }
 
 .menu_jams{
@@ -47,6 +86,12 @@
   color: #000000;
   border: none;
   margin-left: -10px;
+}
+
+#linha_divisoria {
+  margin: 0px;
+  border: none;
+  border-top: 10px solid black;
 }
 
 .menu_jams_opcoes .dropdown-item {
@@ -86,24 +131,67 @@
   text-decoration: underline;
 }
 
-.navbar-nav {
-  display: flex;
-  align-items: center;
+#link_pagina_inicial{
+  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-right: -20px;
 }
 
-.navbar-nav .nav-link {
-  padding: 0.25rem 0.75rem;
-  white-space: nowrap;
+#link_pagina_inicial:hover{
+  color: #ffffff;
 }
 
-.navbar-nav li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+#nome_site{
+  margin-left: 10px;
 }
 
-@media (max-width: 768px) {
-  .nome_site {
-    font-size: 20px;
-  }    
+#logo{
+  padding-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.menu_jams_opcoes{
+  display: none;
+  position: absolute;
+  background-color: white;
+  margin-top: -5px;
+  z-index: 1000;
+  min-width: 200px;
+}
+
+.menu_jams:hover .menu_jams_opcoes {
+  display: block;
+}
+
+.menu_jams:hover > .dropdown-toggle,
+.menu_jams.show > .dropdown-toggle {
+  text-decoration: underline;
+}
+
+.menu_jams:hover #seta_dropdown,
+.menu_jams.show #seta_dropdown {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+#opcao_jams{
+  padding-top: 53px;
+}
+
+#opcao_jams:hover{
+  text-decoration: underline;
+}
+
+#seta_dropdown{
+  margin-left: -10px;
+}
+
+.nav-link.active,
+.dropdown-item.active {
+  text-decoration: underline;
 }

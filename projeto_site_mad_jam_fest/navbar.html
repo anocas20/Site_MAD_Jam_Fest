@@ -1,7 +1,10 @@
-<nav class="navegacao navbar navbar-dark navbar-expand-xl">
-    <a href="index.html" class="homepage_logo navbar-brand ">
-        <h2 class="nome_site"><img src="images/logotipo.png" id="logotipo_navbar" width="120px" height="120px"></img>MAD>Jam>Fest</h2>
-    </a>
+<nav class="navegacao navbar navbar-expand-xl">
+    <div id="logo">
+        <a href="index.html" id="link_pagina_inicial">
+            <img src="images/logotipo.png" id="logotipo_navbar" width="100px" height="100px"></img>
+            <img src="images/nome_site.svg" id="nome_site" width="60%" height="60%"></img>
+        </a>
+    </div>   
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
         <div class = "bar1"></div>
@@ -9,34 +12,36 @@
         <div class = "bar3"></div>
     </button>
 
-
-    
     <div class="collapse navbar-collapse" id="navbarLinks">
         <ul class="navbar-nav">
             <li class="informacao">
-                <a id="opcao_inicio" href="index.html" class="textbody1 nav-link">início</a>
+                <a id="opcao_inicio" href="index.html" class="textnavbar nav-link">início</a>
             </li>
             <li class="informacao">
-                <a id="opcao_sobre" href="sobre.html" class="textbody1 nav-link">sobre</a>
+                <a id="opcao_sobre" href="sobre.html" class="textnavbar nav-link">sobre</a>
             </li>
             <li class="menu_jams nav-item dropdown">
-                <a id="opcao_jams" class="textbody1 nav-link m-2 dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">jams</a>
+                <a id="opcao_jams" class="textnavbar nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    jams
+                    <img src="images/seta_normal.svg" id="seta_dropdown" alt="">
+                </a>
                 <div class="menu_jams_opcoes dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a id="opcao_animation_jam" href="animation_jam.html" class="textbody1 dropdown-item">animation jam</a>
-                    <a id="opcao_video_jam" href="video_jam.html" class="textbody1 dropdown-item">video jam</a>
-                    <a id="opcao_photo_jam" href="photo_jam.html" class="textbody1 dropdown-item">photo jam</a>
-                    <a id="opcao_game_jam" href="game_jam.html" class="textbody1 dropdown-item">game jam</a>
+                    <a id="opcao_animation_jam" href="animation_jam.html" class="textnavbar dropdown-item">animation jam</a>
+                    <a id="opcao_video_jam" href="video_jam.html" class="textnavbar dropdown-item">video jam</a>
+                    <a id="opcao_photo_jam" href="photo_jam.html" class="textnavbar dropdown-item">photo jam</a>
+                    <a id="opcao_game_jam" href="game_jam.html" class="textnavbar dropdown-item">game jam</a>
                 </div>
             </li>
             <li class="informacao">
-                <a id="opcao_faq" href="faq.html" class="textbody1 nav-link">faq</a>
+                <a id="opcao_faq" href="faq.html" class="textnavbar nav-link">faq</a>
             </li>
             <li class="informacao">
-                <a id="opcao_arquivo" href="arquivo.html" class="textbody1 nav-link">arquivo</a>
+                <a id="opcao_arquivo" href="arquivo.html" class="textnavbar nav-link">arquivo</a>
             </li>
         </ul>
         <div class="ml-auto">
-            <a href="inscricao.html" class=" textbutton btn btn-outline-light btn-navbar"> participa já! > </a>
+            <a href="inscricao.html" id="botao_navbar" class="botao_navbar btn btn-outline-light btn-navbar"> participa já! > </a>
         </div>
     </div>
 </nav>
+<hr id="linha_divisoria">
