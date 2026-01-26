@@ -89,10 +89,6 @@ body{
 
 .info_jams-card{
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
     width: 100%;
     text-align: center;
     border: 10px solid #000000;
@@ -209,4 +205,97 @@ body{
     padding-top: 20px;
     margin-left: -10px;
     padding-right: 55px;
+}
+
+
+.titulo2_historia{
+  font-family: 'Special Gothic';
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+
+
+.textbutton_historia{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 0px;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 40px;
+  background-color: #FA5302;
+}
+
+.textbutton_historia:hover{
+    transition: 0s;
+    color: white;
+    background-color: black;
+}
+
+.coluna1_historia{
+  flex: 1;
+}
+
+.coluna2_historia{
+  flex: 2;
+}
+
+.linha_historia{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.linha_divisoria {
+    border: none;
+    border-top: 10px solid #FA5302;
+}
+
+.numero_laranja_historia{
+    color: #FA5302;
+}
+
+.imagem_historia{
+    width: 20%
+}
+
+.jam-card {
+  position: relative;
+  display: flex;
+  align-items: center; 
+  border: 10px solid red;
+  background-color: white;
+}
+
+.imagem_logo {
+  flex: 0 0 30%;
+}
+
+.animation_jam_pattern_imagem {
+  width: 500px;
+  display: block;
+}
+
+.texto_info_animation_jam {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.mad_animation_jam_imagem {
+  width: 300px; /* Ajusta conforme o tamanho da tua imagem */
+  margin-bottom: 15px;
+  display: block;
+}
+
+.textbody1_jam {
+  font-family: 'Azeret Mono', monospace;
+  font-size: 24px;
+}
+
+.seta_animation_jam {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
 }
