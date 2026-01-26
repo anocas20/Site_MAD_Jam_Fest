@@ -37,10 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
 function carregarDadosNavbar() { 
   const navbar = document.getElementById("sitio_navbar");
   const logotipo = document.getElementById("logotipo_navbar");
-  const linha_divisoria = document.getElementById("linha_divisoria");
+  const linha_divisoria = document.getElementById("linha_divisoria_navbar");
   const botao = document.getElementById("botao_navbar");
 
-  const seta = document.getElementById("seta_dropdown");
+  const seta = document.getElementById("seta_dropdown_navbar");
   const pagina = window.location.pathname;
 
   if (pagina.includes("animation_jam.html")) {
@@ -48,7 +48,7 @@ function carregarDadosNavbar() {
     botao.classList.add("botao_navbar_animation");
     linha_divisoria.style.borderColor = "#FE0000";
     seta.src = "images/seta_vermelha.svg";
-    const opcaoAnimationJam = document.getElementById("opcao_animation_jam");
+    const opcaoAnimationJam = document.getElementById("opcao_animation_jam_navbar");
     opcaoAnimationJam.style.textDecoration = "underline";
     opcaoAnimationJam.style.color = "#FE0000";
   }
@@ -58,7 +58,7 @@ function carregarDadosNavbar() {
     botao.classList.add("botao_navbar_game");
     linha_divisoria.style.borderColor = "#0F60FF";
     seta.src = "images/seta_azul.svg";
-    const opcaoGameJam = document.getElementById("opcao_game_jam");
+    const opcaoGameJam = document.getElementById("opcao_game_jam_navbar");
     opcaoGameJam.style.textDecoration = "underline";
     opcaoGameJam.style.color = "#0F60FF";
   }
@@ -88,7 +88,7 @@ function carregarDadosNavbar() {
     botao.classList.add("botao_navbar_photo");
     linha_divisoria.style.borderColor = "#22B751";
     seta.src = "images/seta_verde.svg";
-    const opcaoPhotoJam = document.getElementById("opcao_photo_jam");
+    const opcaoPhotoJam = document.getElementById("opcao_photo_jam_navbar");
     opcaoPhotoJam.style.textDecoration = "underline";
     opcaoPhotoJam.style.color = "#22B751";
   }
@@ -98,7 +98,7 @@ function carregarDadosNavbar() {
     botao.classList.add("botao_navbar_video");
     linha_divisoria.style.borderColor = "#AB31AA";
     seta.src = "images/seta_roxa.svg";
-    const opcaoVideoJam = document.getElementById("opcao_video_jam");
+    const opcaoVideoJam = document.getElementById("opcao_video_jam_navbar");
     opcaoVideoJam.style.textDecoration = "underline";
     opcaoVideoJam.style.color = "#AB31AA";
   }
