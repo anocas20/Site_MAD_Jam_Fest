@@ -264,38 +264,177 @@ body{
   position: relative;
   display: flex;
   align-items: center; 
-  border: 10px solid red;
   background-color: white;
+  margin-bottom: 40px;
+}
+
+.jam-card-animation{
+    border: 10px solid #FE0000;
+}
+
+.jam-card-video{
+    border: 10px solid #AB31AA;
+}
+
+.jam-card-photo{
+    border: 10px solid #22B751;
+}
+
+.jam-card-game{
+    border: 10px solid #0F60FF;
+}
+
+.jam-card-animation:hover{
+    transition: 0s;
+    background-color: #FE0000;
+    .textbody1_jam{
+        color: white;
+    }
+
+    .seta_jam_animation,
+    .mad_jam_imagem_animation,
+    .jam_pattern_imagem_animation{
+        filter: brightness(0) invert(1);
+    }
+}
+
+.jam-card-video:hover{
+    transition: 0s;
+    background-color: #AB31AA;
+    .textbody1_jam{
+        color: white;
+    }
+
+    .seta_jam_video,
+    .mad_jam_imagem_video,
+    .jam_pattern_imagem_video{
+        filter: brightness(0) invert(1);
+    }
+}
+
+.jam-card-photo:hover{
+    transition: 0s;
+    background-color: #22B751;
+    .textbody1_jam{
+        color: white;
+    }
+
+    .seta_jam_photo,
+    .mad_jam_imagem_photo,
+    .jam_pattern_imagem_photo{
+        filter: brightness(0) invert(1);
+    }
+}
+
+.jam-card-game:hover{
+    transition: 0s;
+    background-color: #0F60FF;
+    .textbody1_jam{
+        color: white;
+    }
+
+    .seta_jam_game,
+    .mad_jam_imagem_game,
+    .jam_pattern_imagem_game{
+        filter: brightness(0) invert(1);
+    }
 }
 
 .imagem_logo {
-  flex: 0 0 30%;
+  flex: 0 0 35%;
 }
 
-.animation_jam_pattern_imagem {
-  width: 500px;
-  display: block;
+.jam_pattern_imagem_animation {
+    margin-left: -15px;
+    width: 550px;
+    display: block;
 }
 
-.texto_info_animation_jam {
+.jam_pattern_imagem_video {
+    margin-right: -15px;
+    width: 550px;
+    display: block;
+}
+
+.jam_pattern_imagem_photo {
+    margin-left: -15px;
+    width: 550px;
+    display: block;
+}
+
+.jam_pattern_imagem_game {
+    margin-right: -15px;
+    width: 550px;
+    display: block;
+}
+
+.jam_pattern_imagem_animation:hover,
+.jam_pattern_imagem_video:hover,
+.jam_pattern_imagem_photo:hover,
+.jam_pattern_imagem_game:hover {
+    transition: 0s;
+    fill:white;
+}
+
+.texto_info_jam {
   flex: 1;
   padding-left: 30px;
 }
 
-.mad_animation_jam_imagem {
-  width: 300px; /* Ajusta conforme o tamanho da tua imagem */
+.mad_jam_imagem_animation {
+  width: 400px;
   margin-bottom: 15px;
   display: block;
+}
+
+.mad_jam_imagem_video {
+  width: 300px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.mad_jam_imagem_photo {
+  width: 300px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.mad_jam_imagem_game {
+  width: 300px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.seta_jam_animation {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+}
+
+.seta_jam_video {
+  position: absolute;
+  top: 20px;
+  right: 550px;
+  width: 50px;
+}
+
+.seta_jam_photo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+}
+
+.seta_jam_game {
+  position: absolute;
+  top: 20px;
+  right: 550px;
+  width: 50px;
 }
 
 .textbody1_jam {
   font-family: 'Azeret Mono', monospace;
   font-size: 24px;
-}
-
-.seta_animation_jam {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 35px;
+  color: black;
 }
