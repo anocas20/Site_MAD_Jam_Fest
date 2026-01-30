@@ -1,0 +1,78 @@
+{
+  "2025": {
+    "nome_evento": "MAD > JAM > ",
+    "ano": "2025",
+    "logotipo_evento_ano": "images/logo_2025.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "ANIMATION",
+        "cor": "#fe0000",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "NOU SHOE", "imagem": "images/vencedor.svg" },
+          { "lugar": "2º lugar", "nome_projeto": "BATEDEIRA", "imagem": "images/vencedor.svg" }
+        ],
+        "download_arquivos": "files/animation_jam_2025.zip"
+      },
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      },
+      {
+        "tipo_jam": "VIDEO",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
+          { "lugar": "2º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
+          { "lugar": "3º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+
+
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2023": {
+    "nome": "MAD > JAM > FEST",
+    "ano": 2023,
+    "logotipo": "images/logo_2023.svg",
+    "video": "images/ano2023_video.mp4",
+
+    "jams": [
+      {
+        "tipo": "GAME JAM",
+        "premiados": [
+          { "lugar": "1º lugar", "filme": "RETRO RUN", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [],
+    "equipa": []
+  }
+}

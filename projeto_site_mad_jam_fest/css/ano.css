@@ -20,6 +20,13 @@ body{
     padding-top: 70px;
 }
 
+.container_pagina_primeiro{
+    background-color: white;
+    max-width: 1400px;
+    padding-left: 140px;
+    padding-top: 70px;
+}
+
 .titulo1_pagina{
     font-family: 'Special Gothic';
     font-size: 100px;
@@ -38,6 +45,35 @@ body{
     padding-top: 60px;
 }
 
+.titulo1_pagina_premiados{
+    font-family: 'Special Gothic';
+    font-size: 100px;
+    text-align: top;
+    text-align: left;
+    color: black;
+    margin-top: 100px;
+}
+
+.titulo1_pagina_galeria{
+    font-family: 'Special Gothic';
+    font-size: 100px;
+    text-align: top;
+    text-align: left;
+    color: black;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.titulo1_pagina_equipa{
+    font-family: 'Special Gothic';
+    font-size: 100px;
+    text-align: top;
+    text-align: left;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
 #logotipo_evento_ano{
     width: 200px;
     margin-right: 30px;
@@ -49,32 +85,48 @@ body{
   justify-content: space-between;
 }
 
-.info-card {
-    position: relative;
-    /* padding: 30px; */
-    padding-top: 80px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 20px;
-    width: 30%;
-    text-align: center;
-    border: 10px solid #fe0000;
+.premiado-grid{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    aspect-ratio: 16/9;
-    position: relative;
-    overflow: hidden;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
-.info_icon {
-    font-size: 20px;
-    color: white;
-    background-color: #FE0000;
-    font-family: 'Azeret Mono';
+.premiado-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.texto_lugar {
     position: absolute;
-    padding: 10px;
+    top: -59px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: white;
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+.premiado{
+    flex: 1 1 350px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.nome_projeto{
+    margin-top: 15px;
+    font-family: 'Special Gothic';
+    font-size: 26px;
 }
 
 .imagem_vencedores{
@@ -84,11 +136,103 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 0;
 }
 
 
 .imagem_vencedores1{
     border: 10px solid #FE0000;
     width: 400px;
+}
+
+#video_ano{
+    margin-top: 60px;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textbutton_download{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 50px;
+  background-color: var(--btn-cor, white);
+}
+
+.textbutton_download:hover{
+    transition: 0s;
+    color: white;
+    background-color: black;
+}
+
+.slider{
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-track{
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+.slider-track img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+.organizacao{
+    text-align: center;
+}
+
+.textbutton_galeria{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #FA5302;
+  margin-top: 70px;
+}
+
+.textbutton_galeria:hover{
+    transition: 0s;
+    color: white;
+    background-color: black;
+}
+
+.equipa-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.elemento_equipa{
+    width: 230px;
+}
+
+.nome_elemento_equipa{
+    margin-top: 15px;
+    font-family: 'Azeret Mono';
+    font-size: 24px;
 }
