@@ -4,11 +4,27 @@
     src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
 .textnavbar{
   font-family: 'Azeret Mono', monospace;
   font-size: 24px;
   color: #000000;
   font-weight: bold;
+}
+
+.navbar-nav {
+  gap: 30px;
 }
 
 .textnavbar:hover{

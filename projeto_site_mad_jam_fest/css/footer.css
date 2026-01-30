@@ -3,6 +3,18 @@
     src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
 .pagina_opcao_footer{
   font-family: 'Azeret Mono';
   font-size: 20px;

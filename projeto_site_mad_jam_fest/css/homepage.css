@@ -8,6 +8,18 @@
     src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -23,7 +35,9 @@ body{
 .textbody1{
   font-family: 'Azeret Mono', monospace;
   font-size: 24px;
+  color: #000000;
 }
+
 
 .titulo1_pagina{
     font-family: 'Special Gothic';
@@ -65,6 +79,7 @@ body{
 .textbutton{
   font-family: 'Azeret Mono', monospace;
   font-size: 20px;
+  font-weight: 700px;
   color: white;
   border-radius: 0px;
   display: flex;
@@ -158,6 +173,7 @@ body{
 .textbutton_open_call{
   font-family: 'Azeret Mono', monospace;
   font-size: 20px;
+  font-weight: 700px;
   color: white;
   border-radius: 0px;
   display: flex;

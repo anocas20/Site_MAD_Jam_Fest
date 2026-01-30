@@ -8,6 +8,18 @@
     src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -61,6 +73,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .info_icon {
@@ -155,17 +168,29 @@ body{
     font-size: 24px;
     text-align: center;
     color: black;
+    line-height: 1.4;   /* diminui espaço entre linhas */
+    margin: 2px 0;      /* remove espaçamento grande entre <p> */
+}
+
+.texto_legenda{
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
 }
 
 .textbutton{
   font-family: 'Azeret Mono', monospace;
   font-size: 20px;
+  font-weight: 700px;
   color: white;
   border-radius: 0px;
   display: flex;
   flex-direction: column;
   align-content: center;
   background-color: #FA5302;
+  margin-top: 40px;
 }
 
 .textbutton:hover{
@@ -218,6 +243,7 @@ body{
 .textbutton_historia{
   font-family: 'Azeret Mono', monospace;
   font-size: 20px;
+  font-weight: 700px;
   color: white;
   border-radius: 0px;
   display: flex;
