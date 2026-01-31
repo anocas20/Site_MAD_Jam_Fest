@@ -80,8 +80,35 @@ body{
     top: -45px;
 }
 
+.info_icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: var(--icon-top);
+}
+
 .info_icon img {
-    width: 90px;
+    width: var(--icon-size);
+}
+
+.icon-small {
+    --icon-size: 80px;
+    --icon-top: -60px;
+}
+
+.icon-medium {
+    --icon-size: 90px;
+    --icon-top: -55px;
+}
+
+.icon-large {
+    --icon-size: 95px;
+    --icon-top: -50px;
+}
+
+.icon-larger {
+    --icon-size: 105px;
+    --icon-top: -65px;
 }
 
 .info_participa-card{
