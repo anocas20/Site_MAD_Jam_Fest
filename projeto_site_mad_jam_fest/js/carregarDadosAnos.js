@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const evento = data[ano];
 
       document.getElementById("nome_evento").innerHTML =
-        `${evento.nome_evento}<br>FEST > ${evento.ano}`;
+        `${evento.nome_evento}`;
 
       document.getElementById("logotipo_evento_ano").src = evento.logotipo_evento_ano;
 

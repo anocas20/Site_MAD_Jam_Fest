@@ -1,6 +1,6 @@
 {
   "2025": {
-    "nome_evento": "MAD > JAM > ",
+    "nome_evento": "MAD > JAM > <br>FEST > 2025",
     "ano": "2025",
     "logotipo_evento_ano": "images/logo_2025.svg",
     "video_ano": "images/ano2025_video.mp4",
@@ -57,22 +57,328 @@
     ]
   },
 
-  "2023": {
-    "nome": "MAD > JAM > FEST",
-    "ano": 2023,
-    "logotipo": "images/logo_2023.svg",
-    "video": "images/ano2023_video.mp4",
+  "2024": {
+    "nome_evento": "MAD > JAM > <br>FEST > 2024",
+    "ano": "2024",
+    "logotipo_evento_ano": "images/logo_2024.svg",
+    "video_ano": "images/ano2025_video.mp4",
 
-    "jams": [
+    "premiados_jams": [
       {
-        "tipo": "GAME JAM",
+        "tipo_jam": "ANIMATION",
+        "cor": "#fe0000",
         "premiados": [
-          { "lugar": "1º lugar", "filme": "RETRO RUN", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º lugar", "nome_projeto": "NOU SHOE", "imagem": "images/vencedor.svg" },
+          { "lugar": "2º lugar", "nome_projeto": "BATEDEIRA", "imagem": "images/vencedor.svg" }
+        ],
+        "download_arquivos": "files/animation_jam_2025.zip"
+      },
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      },
+      {
+        "tipo_jam": "VIDEO",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
+          { "lugar": "2º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
+          { "lugar": "3º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+
+
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2023": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2023",
+    "ano": "2023",
+    "logotipo_evento_ano": "images/logo_2023.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
         ]
       }
     ],
 
-    "galeria": [],
-    "equipa": []
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2022": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2022",
+    "ano": "2022",
+    "logotipo_evento_ano": "images/logo_2022.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2021": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2021",
+    "ano": "2021",
+    "logotipo_evento_ano": "images/logo_2021.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2020": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2020",
+    "ano": "2020",
+    "logotipo_evento_ano": "images/logo_2020.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2019": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2019",
+    "ano": "2019",
+    "logotipo_evento_ano": "images/logo_2019.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2018": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2018",
+    "ano": "2018",
+    "logotipo_evento_ano": "images/logo_2017_2018.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
+  },
+
+  "2017": {
+    "nome_evento": "MAD > GAME > <br>JAM > 2017",
+    "ano": "2017",
+    "logotipo_evento_ano": "images/logo_2017_2018.svg",
+    "video_ano": "images/ano2025_video.mp4",
+
+    "premiados_jams": [
+      {
+        "tipo_jam": "GAME",
+        "cor": "#0F60FF",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+        ]
+      }
+    ],
+
+    "galeria": [
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg",
+      "images/vencedor.svg"
+    ],
+
+    "equipa_organizadora": [
+      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" },
+      { "nome": "João Costa", "foto": "images/organizador.svg" }
+    ]
   }
+
 }
