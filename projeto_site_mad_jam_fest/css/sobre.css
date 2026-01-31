@@ -180,11 +180,6 @@ body{
     padding-top: 15px;
 }
 
-.icon_discord{
-    font-size: 30px;
-    padding-right: 10px;
-}
-
 .datas{
     font-weight: bold;
 }
@@ -493,4 +488,47 @@ body{
 
 .link_jam:hover{
   text-decoration: none;
+}
+
+
+.stock-ticker{
+    font-family: 'Azeret Mono', monospace;
+    font-size: 24px;
+    padding-block: 8px;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+}
+
+.stock-ticker ul {
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+
+    background-color: #FE8F00;
+    animation: scroll 20s linear infinite;
+}
+
+.stock-ticker .elementos_linha_discord_1{
+    margin-inline: 4px;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(-100%);
+    }    
+}
+
+.icon_discord{
+    font-size: 27px;
+}
+
+.stock-ticker:hover ul{
+    animation-play-state: paused;
 }

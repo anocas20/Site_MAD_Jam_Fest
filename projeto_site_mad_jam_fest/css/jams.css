@@ -20,6 +20,10 @@
     font-weight: 700;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 .container_pagina{
     background-color: white;
