@@ -26,7 +26,7 @@
     max-width: 1400px;
     padding-left: 140px;
     padding-bottom: 100px;
-    padding-top: 70px;
+    padding-top: 0px;
 }
 
 .titulo1_pagina{
@@ -35,6 +35,7 @@
     text-align: top;
     text-align: left;
     color: black;
+    padding-top: 80px;
     padding-bottom: 40px;
 }
 
