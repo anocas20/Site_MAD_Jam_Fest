@@ -187,13 +187,21 @@ body{
     margin-bottom: 50px;
 }
 
+.row.cards-row {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;         
+  gap: 10px;             
+}
+
 .ano_arquivo-card {
     background: white;
     border: 10px solid black;
-    width: 300px;
+    width: 230px;
     aspect-ratio: 16/9;
     position: relative;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .texto_ano_arquivo{
@@ -247,5 +255,5 @@ body{
 .ano_arquivo-card:hover .texto_ano_arquivo {
     color: white;
     background-color: black;
-    padding: 14px;
+    padding: 10px;
 }
