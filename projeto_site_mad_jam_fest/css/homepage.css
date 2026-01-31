@@ -108,7 +108,7 @@ body{
     flex-direction: column; */
     position: relative;
     width: 49%;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     aspect-ratio: 16/9;
     justify-content: center;
