@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       carregarDadosNavbar();
+      controlarNavbar();
 
     });
 
@@ -32,6 +33,21 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
+
+function controlarNavbar(){
+  const sitioNavbar = document.getElementById("sitio_navbar");
+  const linha = document.getElementById("linha_divisoria_navbar");
+
+  window.addEventListener("scroll", () => {
+    if(window.scrollY > 50){
+      sitioNavbar.classList.add("navbar-scrolled");
+      if (linha) linha.classList.add("linha-scrolled");
+    } else {
+      sitioNavbar.classList.remove("navbar-scrolled");
+      if (linha) linha.classList.remove("linha-scrolled");
+    }
+  })
+}
 
 
 function carregarDadosNavbar() { 
@@ -66,6 +82,7 @@ function carregarDadosNavbar() {
   if (pagina.includes("index.html")) {
     const inicio = document.getElementById("opcao_inicio");
     inicio.style.textDecoration = "underline";
+    seta.src = "images/seta_preta.svg";
   }
 
   if (pagina.includes("arquivo.html")) {

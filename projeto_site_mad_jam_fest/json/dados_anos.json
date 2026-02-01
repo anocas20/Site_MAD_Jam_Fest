@@ -3,7 +3,7 @@
     "nome_evento": "MAD > JAM > <br>FEST > 2025",
     "ano": "2025",
     "logotipo_evento_ano": "images/logo_2025.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -60,8 +60,8 @@
   "2024": {
     "nome_evento": "MAD > JAM > <br>FEST > 2024",
     "ano": "2024",
-    "logotipo_evento_ano": "images/logo_2024.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "logotipo_evento_ano": "images/logo_2024.png",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -119,7 +119,7 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2023",
     "ano": "2023",
     "logotipo_evento_ano": "images/logo_2023.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -157,7 +157,7 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2022",
     "ano": "2022",
     "logotipo_evento_ano": "images/logo_2022.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -195,7 +195,7 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2021",
     "ano": "2021",
     "logotipo_evento_ano": "images/logo_2021.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -233,7 +233,7 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2020",
     "ano": "2020",
     "logotipo_evento_ano": "images/logo_2020.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -270,8 +270,8 @@
   "2019": {
     "nome_evento": "MAD > GAME > <br>JAM > 2019",
     "ano": "2019",
-    "logotipo_evento_ano": "images/logo_2019.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "logotipo_evento_ano": "images/logo_2019.png",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -309,7 +309,7 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2018",
     "ano": "2018",
     "logotipo_evento_ano": "images/logo_2017_2018.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {
@@ -347,7 +347,7 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2017",
     "ano": "2017",
     "logotipo_evento_ano": "images/logo_2017_2018.svg",
-    "video_ano": "images/ano2025_video.mp4",
+    "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
       {

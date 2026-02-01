@@ -32,6 +32,26 @@ body{
     padding-top: 70px;
 }
 
+#sitio_navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  opacity: 1;
+}
+
+.botao_navbar {
+    background-color: #FA5302;
+}
+
+.botao_navbar:hover{
+    transition: 0s;
+    color: white;
+    background-color: black;
+}
+
 .textbody1{
   font-family: 'Azeret Mono', monospace;
   font-size: 24px;
