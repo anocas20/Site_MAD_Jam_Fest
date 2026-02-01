@@ -8,6 +8,18 @@
     src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -36,8 +48,15 @@ body{
     background-color: white;
     max-width: 1400px;
     padding-left: 140px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-top: 70px;
+}
+
+.container_voluntarios{
+    background-color: white;
+    max-width: 1400px;
+    padding-left: 140px;
+    padding-bottom: 100px;
 }
 
 .container_pagina_primeiro{
@@ -53,6 +72,7 @@ body{
     text-align: top;
     text-align: left;
     color: black;
+    padding-left: 20px;
 }
 
 .titulo2_pagina{
@@ -72,6 +92,7 @@ body{
     text-align: left;
     color: black;
     margin-top: 100px;
+    margin-bottom: 120px;
 }
 
 .titulo1_pagina_galeria{
@@ -93,6 +114,15 @@ body{
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
+.titulo1_pagina_voluntarios {
+    font-family: 'Special Gothic';
+    font-size: 100px;
+    text-align: left;
+    color: black;
+    margin-bottom: 80px;
+}
+
 
 #logotipo_evento_ano{
     width: 200px;
@@ -120,7 +150,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 100px;
 }
 
 .texto_lugar {
@@ -136,7 +165,6 @@ body{
     padding: 10px 20px;
 }
 
-
 .premiado{
     flex: 1 1 350px;
     max-width: 600px;
@@ -145,8 +173,14 @@ body{
 
 .nome_projeto{
     margin-top: 15px;
+    margin-bottom: 5px;
     font-family: 'Special Gothic';
     font-size: 26px;
+}
+
+.nome_participantes{
+    font-family: 'Azeret Mono';
+    font-size: 20 px;
 }
 
 .imagem_vencedores{
@@ -157,7 +191,6 @@ body{
     height: 100%;
     object-fit: cover;
 }
-
 
 .imagem_vencedores1{
     border: 10px solid #FE0000;
@@ -171,6 +204,13 @@ body{
     align-items: center;
 }
 
+#video_ano iframe {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+  border: none;
+  display: block;
+}
 
 .textbutton_download{
   font-family: 'Azeret Mono', monospace;
@@ -252,7 +292,22 @@ body{
 }
 
 .nome_elemento_equipa{
-    margin-top: 15px;
+    margin-top: 5px;
     font-family: 'Azeret Mono';
     font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 40px;
+}
+
+.funcao_elemento_equipa{
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.nome_elemento_voluntario{
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    margin-right: 40px;
 }
