@@ -24,20 +24,21 @@ document.addEventListener("DOMContentLoaded", () => {
         linkLogotipo.style.cursor = "default";
       }
 
-      const videoContainer = document.getElementById("video_ano");
+      const sitioVideoContainer = document.getElementById("sitio_video");
       if (evento.imagem_ano && evento.imagem_ano.trim() !== "") {
-        videoContainer.innerHTML = `<img src="${evento.imagem_ano}" alt="Imagem do ano ${ano}" style="width:100%; height:auto;">`;
+        sitioVideoContainer.innerHTML = `<div id="imagem_ano"><img src="${evento.imagem_ano}"></div>`;
       } else if (evento.video_ano && evento.video_ano.trim() !== "") {
-        videoContainer.innerHTML = `
+        sitioVideoContainer.innerHTML = `<div id="video_ano">
           <iframe
             src="${evento.video_ano}"
             frameborder="0"
             allowfullscreen
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
+          </div>
         `;
       } else {
-        videoContainer.innerHTML = "";
+        sitioVideoContainer.innerHTML = "";
       }
 
       const premiadosJAMS = document.getElementById("premiados_jams_container");

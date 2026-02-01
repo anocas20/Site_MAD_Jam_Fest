@@ -381,77 +381,39 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-.carousel-container{
-  position: relative;
-  width: 93%;
-  margin: 0px 55px;
-  justify-content: center;
-  align-items: center;
+.premiado-grid{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
-.carousel-track{
-  display:flex;
-  gap:20px;
-  overflow-x:hidden;
-  scroll-behavior:smooth;
-  scroll-snap-type:x mandatory;
-  -webkit-overflow-scrolling:touch;
+.premiado-card {
+    position: relative;
+    width: 600px;
+    aspect-ratio: 16/9;
+    margin-bottom: 40px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.carousel-track::-webkit-scrollbar{
-  display:none;
+.texto_lugar {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: white;
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
 }
 
-.carousel-track{
-  scrollbar-width:none;
+.premiado{
+    flex: 1 1 350px;
+    max-width: 600px;
+    text-align: center;
 }
-
-.card{
-  flex: 0 0 600px;
-  border:10px solid;
-  position:relative;
-  display: flex;
-  scroll-snap-align:start;
-  overflow:hidden;
-}
-
-.main-img{
-  width:100%;
-  object-fit:contain;
-  display:block;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.carousel-btn{
-  content: '>';
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  width:60px;
-  height:60px;
-  border:none;
-  background:#FA5302;
-  color:white;
-  font-size:2rem;
-  cursor:pointer;
-  z-index:10;
-  transition:0.2s;
-}
-
-.carousel-btn:hover{
-  background:black;
-}
-
-.prev{ left:-30px; }
-.next{ right:-30px; }
