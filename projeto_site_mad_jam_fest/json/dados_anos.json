@@ -3,7 +3,7 @@
     "nome_evento": "MAD > JAM > <br>FEST > 2025",
     "ano": "2025",
     "logotipo_evento_ano": "images/logo_2025.svg",
-    "video_ano": "images/animation_video.mp4",
+    "video_ano": "https://www.youtube.com/embed/yxY68fiouNE",
 
     "premiados_jams": [
       {
@@ -11,24 +11,34 @@
         "cor": "#fe0000",
         "premiados": [
           { "lugar": "1º lugar", "nome_projeto": "NOU SHOE", "imagem": "images/vencedor.svg" },
-          { "lugar": "2º lugar", "nome_projeto": "BATEDEIRA", "imagem": "images/vencedor.svg" }
+          { "lugar": "2º lugar", "nome_projeto": "BATEDEIRA", "imagem": "images/Arquivo/2_Animation.png" }
         ],
         "download_arquivos": "files/animation_jam_2025.zip"
+      },
+      {
+        "tipo_jam": "VIDEO",
+        "cor": "#AB31AA",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "A ÚLTIMA CEIA", "imagem": "images/Arquivo/1_Video.png" },
+          { "lugar": "2º lugar", "nome_projeto": "FILMES DE QUINTAL", "imagem": "images/Arquivo/2_Video.png" },
+          { "lugar": "3º lugar", "nome_projeto": "SOCIAL CHECKPOINT", "imagem": "images/Arquivo/3_Video.png" }
+        ]
+      },
+      {
+        "tipo_jam": "PHOTO",
+        "cor": "#22B751",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "MARIANA LIMA", "imagem": "images/Arquivo/1_Photo.png" },
+          { "lugar": "2º lugar", "nome_projeto": "JOÃO GUIMARÃES", "imagem": "images/Arquivo/2_Photo.png" }
+        ]
       },
       {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
-        ]
-      },
-      {
-        "tipo_jam": "VIDEO",
-        "cor": "#0F60FF",
-        "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
-          { "lugar": "2º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
-          { "lugar": "3º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º lugar", "nome_projeto": "NIGHT SHIFT", "imagem": "images/Arquivo/1_Game.png" },
+          { "lugar": "2º lugar", "nome_projeto": "MOTHER", "imagem": "images/Arquivo/2_Game.png" },
+          { "lugar": "3º lugar", "nome_projeto": "FLIRTING WITH FIRE", "imagem": "images/Arquivo/3_Game.png" }
         ]
       }
 
@@ -36,25 +46,19 @@
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "images/Arquivo/2025_1.png",
+      "images/Arquivo/2025_2.png",
+      "images/Arquivo/2025_3.png",
+      "images/Arquivo/2025_4.webp",
+      "images/Arquivo/2025_5.webp",
+      "images/Arquivo/2025_6.webp"
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+        { "nome": "Luís Leite", "foto": "", "funcao":"Geral" },
+        { "nome": "João Azevedo", "foto": "", "funcao":"Geral" },
+        { "nome": "Hugo Lopes", "foto": "", "funcao":"Geral" }
+      ]
   },
 
   "2024": {
@@ -65,54 +69,53 @@
 
     "premiados_jams": [
       {
-        "tipo_jam": "ANIMATION",
-        "cor": "#fe0000",
-        "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "NOU SHOE", "imagem": "images/vencedor.svg" },
-          { "lugar": "2º lugar", "nome_projeto": "BATEDEIRA", "imagem": "images/vencedor.svg" }
-        ],
-        "download_arquivos": "files/animation_jam_2025.zip"
-      },
-      {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
-        ]
-      },
-      {
-        "tipo_jam": "VIDEO",
-        "cor": "#0F60FF",
-        "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
-          { "lugar": "2º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" },
-          { "lugar": "3º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º Geral", "nome_projeto": "FANCY CRAB STUDIOS", "nome_participantes": ["Ana Neves", "Pedro Pereira", "João Magalhães", "Lucas Ferreira", "Beatriz Dias"], "imagem": "" },
+          { "lugar": "2º Geral", "nome_projeto": "NOISEMINDED", "nome_participantes": ["Abel Neto"], "imagem": "" },
+          { "lugar": "3º Geral", "nome_projeto": "TRASH PANDAS", "nome_participantes": ["Sara Morais", "Diogo Pinheiro", "Pedro Neves"], "imagem": "" }
         ]
       }
-
-
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+        { "nome": "Luís Leite", "foto": "", "funcao": "Geral" },
+        { "nome": "João Azevedo", "foto": "", "funcao": "Geral" },
+        { "nome": "Hugo Lopes", "foto": "", "funcao": "Geral" },
+        { "nome": "Marcello Ferreira", "foto": "", "funcao": "Media Jam" },
+        { "nome": "Tiago Dionísio", "foto": "", "funcao": "Media Jam" },
+        { "nome": "Luís K", "foto": "", "funcao": "Music Jam" },
+        { "nome": "Luís Felix", "foto": "", "funcao": "Game Jam" },
+        { "nome": "Luís Ribeiro", "foto": "", "funcao": "Photo Jam" },
+        { "nome": "Sérgio Rolando", "foto": "", "funcao": "Photo Jam" },
+        { "nome": "Eduardo Silva", "foto": "", "funcao": "AEESMAD" },
+        { "nome": "Gonçalo Chaves", "foto": "", "funcao": "AEESMAD" },
+        { "nome": "Luís Silva", "foto": "", "funcao": "AEESMAD" },
+        { "nome": "Inês Silva", "foto": "", "funcao": "Comunicação"},
+        { "nome": "Bianca Motta", "foto": "", "funcao": "Comunicação"},
+        { "nome": "Rita Marques", "foto": "", "funcao": "Design" }
+      ],
+
+    "voluntarios": [
+        { "nome": "José Lynch" },
+        { "nome": "Luísa Rodrigues" },
+        { "nome": "Nuno Faria" },
+        { "nome": "Vitalina Bondarciuc" },
+        { "nome": "Bruno Torrão" },
+        { "nome": "Pedro Costa" },
+        { "nome": "Matilde Ribeiro" },
+        { "nome": "Mariana Mano" }
+      ]
   },
 
   "2023": {
@@ -125,32 +128,44 @@
       {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
+        "download": "https://itch.io/jam/mad-game-jam-2023",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º Geral", "nome_projeto": "FANCY CRAB STUDIOS", "nome_participantes": ["João Magalhães", "Lucas Ferreira", "Pedro Pereira", "Sara Morais", "João Tavares"], "imagem": "" },
+          { "lugar": "2º Geral", "nome_projeto": "ALAMBIQUE", "nome_participantes": ["Diogo Dias", "José Ribeiro", "Moisés Moreira", "Tiago Araújo"], "imagem": "" },
+          { "lugar": "3º Geral", "nome_projeto": "GRU BEM DISPOSTOS", "nome_participantes": ["Inês Silva", "Joana Machado", "Letícia Oliveira", "Marco Gonçalves", "Rita Silva"], "imagem": "" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+        { "nome": "Luís Leite", "foto": "", "funcao":"Geral" },
+        { "nome": "João Azevedo", "foto": "", "funcao":"Geral" },
+        { "nome": "Hugo Lopes", "foto": "", "funcao":"Geral" },
+        { "nome": "Tiago Dionísio", "foto": "", "funcao":"Geral" },
+        { "nome": "Rui Marins", "foto": "", "funcao":"Game Jam" },
+        { "nome": "Luís Felix", "foto": "", "funcao":"Game Jam" },
+        { "nome": "Eduardo Silva", "foto": "", "funcao":"AEESMAD" },
+        { "nome": "Gonçalo Chaves", "foto": "", "funcao":"AEESMAD" },
+        { "nome": "Rita Marques", "foto": "", "funcao":"CPR" },
+        { "nome": "Inês Silva", "foto": "", "funcao":"Comunicação"},
+        { "nome": "Bianca Motta", "foto": "", "funcao":"Comunicação"},
+        { "nome": "Inês Moreira", "foto": "", "funcao":"Voluntários"}
+      ],
+
+    "voluntarios": [
+        { "nome": "Jorge Pereira" },
+        { "nome": "Juiana Santos" },
+        { "nome": "Ludmila Sen" }
+      ]
   },
 
   "2022": {
@@ -163,107 +178,111 @@
       {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
+        "download": "https://itch.io/jam/mad-game-jam-2022",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º Geral", "nome_projeto": "NOISEMINDED", "nome_participantes": ["Abel Neto"], "imagem": "images/Arquivo/Goat.png" },
+          { "lugar": "2º Geral", "nome_projeto": "LOS SANTOS TEAM", "nome_participantes": ["João Magalhães", "João Tavares", "Lucas Ferreira", "Pedro Pereira", "Tiago Sousa"], "imagem": "images/Arquivo/DarkHour.png" },
+          { "lugar": "3º Geral", "nome_projeto": "TIDDIES", "nome_participantes": ["Gean Silva", "Gustavo Maldonado", "José Santos", "Luiz Santos", "Melissa Cébola", "Romeu Neto"], "imagem": "images/Arquivo/BloodyFreddy.png" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+        { "nome": "Luís Leite", "foto": "", "funcao":"Geral" },
+        { "nome": "João Azevedo", "foto": "", "funcao":"Geral" },
+        { "nome": "Hugo Lopes", "foto": "", "funcao":"Geral" },
+        { "nome": "Inês Silva", "foto": "", "funcao":"Comunicação"},
+        { "nome": "Inês Moreira", "foto": "", "funcao":"Comunicação"}
+      ]
   },
 
   "2021": {
     "nome_evento": "MAD > GAME > <br>JAM > 2021",
     "ano": "2021",
     "logotipo_evento_ano": "images/logo_2021.svg",
-    "video_ano": "images/animation_video.mp4",
+    "link_logotipo": "https://eventos.esmad.ipp.pt/mad-gamejam/madgamejam_2022/mgj2021.html",
+    "video_ano": "images/Arquivo/MadJam2021.jpg",
 
     "premiados_jams": [
       {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
+        "download": "https://itch.io/jam/mad-game-jam-2021",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º Geral", "nome_projeto": "SABOTEURS", "nome_participantes": ["Abel Neto", "Catarina Lopes", "Dário Pinto", "João Marques", "Miguel Sousa", "Valter Abreu"], "imagem": "images/Arquivo/Caim.png" },
+          { "lugar": "2º Geral", "nome_projeto": "MISTAS SEM FIAMBRE", "nome_participantes": ["Beatriz Abreu", "Diogo Pereira", "José Ribeiro"], "imagem": "images/Arquivo/Redream.png" },
+          { "lugar": "3º Geral", "nome_projeto": "CAPIVARAS DO MARACATU", "nome_participantes": ["Alexandre Costa", "Angelo Santana", "Bruno Nascimento", "Fernando Costa", "Gabriel Silva"], "imagem": "images/Arquivo/Eusébio.png" },
+          { "lugar": "1º Qudo", "nome_projeto": "VEGETA OLHE BEM", "nome_participantes": ["Rogério Junior"], "imagem": "images/Arquivo/Dungeon Vu.png" },
+          { "lugar": "2º Qudo", "nome_projeto": "EQUIPE ATLÂNTICA", "nome_participantes": ["Caio Rodrigues", "Daniel Costa", "JJoão Falcão", "João Siqueira", "Rodrigo Domingos", "Denis Sarmento"], "imagem": "images/Arquivo/Móbirus.png" },
+          { "lugar": "3º Qudo", "nome_projeto": "AFTERLIFE VIKINGS", "nome_participantes": ["Eric Amaral", "Ivo Ferro", "Renato Oliveira", "Sérgio Machado"], "imagem": "images/Arquivo/DeJaFostes.png" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+        { "nome": "Luís Leite", "foto": "", "funcao":"Geral" },
+        { "nome": "João Azevedo", "foto": "", "funcao":"Geral" },
+        { "nome": "Hugo Lopes", "foto": "", "funcao":"Geral" },
+        { "nome": "Inês Silva", "foto": "", "funcao":"Comunicação"}
+      ]
   },
 
   "2020": {
     "nome_evento": "MAD > GAME > <br>JAM > 2020",
     "ano": "2020",
     "logotipo_evento_ano": "images/logo_2020.svg",
-    "video_ano": "images/animation_video.mp4",
+    "link_logotipo": "https://eventos.esmad.ipp.pt/mad-gamejam/madgamejam_2022/mgj2020.html",
+    "video_ano": "https://www.youtube.com/embed/MY7Dfo4GtzY",
 
     "premiados_jams": [
       {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º lugar", "nome_projeto": "FILETES", "nome_participantes": ["Beatriz Abreu", "Diogo Pereira", "José Ribeiro", "Maria Lima"], "imagem": "" },
+          { "lugar": "2º lugar", "nome_projeto": "MAD JAMMERS", "nome_participantes": ["André Marques", "Bruno Teixeira", "Carlos Paula", "Isac Luz", "Justiniano Terroso", "Miguel Gonçalves"], "imagem": "" },
+          { "lugar": "3º lugar", "nome_projeto": "NEIVA COLLECTIVE", "nome_participantes": ["Bruno Costa", "David Carvalho", "João Puig", "Miguel Brito", "Moisés Moreira", "Pedro Rua"], "imagem": "" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
+      { "nome": "Luís Leite", "foto": "", "funcao":"Geral" },
+      { "nome": "João Azevedo", "foto": "", "funcao":"Geral" },
+      { "nome": "Hugo Lopes", "foto": "", "funcao":"Geral" },
+      { "nome": "Bruno Oliveira", "foto": "", "funcao":"Geral" },
+      { "nome": "Inês Silva", "foto": "", "funcao":"Comunicação"},
+      { "nome": "Bianca Mota", "foto": "", "funcao":"Comunicação" },
+      { "nome": "Catarina Silva", "foto": "", "funcao":"AEESMAD" },
+      { "nome": "Tiago Castro", "foto": "", "funcao":"AEESMAD" },
+      { "nome": "Luís Felix", "foto": "", "funcao":"Game Jam" }
     ]
   },
 
@@ -271,44 +290,77 @@
     "nome_evento": "MAD > GAME > <br>JAM > 2019",
     "ano": "2019",
     "logotipo_evento_ano": "images/logo_2019.png",
-    "video_ano": "images/animation_video.mp4",
+    "link_logotipo": "https://eventos.esmad.ipp.pt/mad-gamejam/madgamejam_2022/mgj2019.html",
+    "video_ano": "https://www.youtube.com/embed/FW1Q4BCPK3M",
 
     "premiados_jams": [
       {
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º lugar", "nome_projeto": "SABOTEURS", "nome_participantes": ["Abel Neto", "João Marques", "Manuel César,", "Margarida Rocha", "Valter Abreu"], "imagem": "" },
+          { "lugar": "2º lugar", "nome_projeto": "DOIREALLYHAVETODOTHIS", "nome_participantes": ["André Rodrigues", "Bruno Ferreira", "Diogo Pereira", "Lis Crispim", "Moisés Moreira"], "imagem": "" },
+          { "lugar": "3º lugar", "nome_projeto": "CURSED PROJECTS STUDIO", "nome_participantes": ["Jorge Antão", "José Souto", "Márcia Viana", "Rui Moreira"], "imagem": "" }
+        ]
+      },
+      {
+        "tipo_jam": "PHOTO",
+        "cor": "#22B751",
+        "premiados": [
+          { "lugar": "1º lugar", "nome_projeto": "PEDRO GOMES", "imagem": "" },
+          { "lugar": "2º lugar", "nome_projeto": "ANDRÉ RODRIGUES", "imagem": "" },
+          { "lugar": "3º lugar", "nome_projeto": "ANTÓNIO SANTOS", "imagem": "" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    
+    "equipa_organizadora": [
+      { "nome": "Luís Leite", "foto": "", "funcao":"Organização" },
+      { "nome": "João Azevedo", "foto": "", "funcao":"Organização" },
+      { "nome": "Hugo Lopes", "foto": "", "funcao":"Organização" },
+      { "nome": "Bruno Oliveira", "foto": "", "funcao":"Organização" },
+      { "nome": "Filipe Martins ", "foto": "", "funcao":"Organização" },
+      { "nome": "Daniela Tavares", "foto": "", "funcao":"Gestão" },
+      { "nome": "Inês Silva", "foto": "", "funcao":"Logística"},
+      { "nome": "Álvaro Holstein", "foto": "", "funcao":"Logística" },
+      { "nome": "Pedro Afonso", "foto": "", "funcao":"Logística" },
+      { "nome": "Tiago Castro", "foto": "", "funcao":"AEESMAD" },
+      { "nome": "Érica Vasconcelos", "foto": "", "funcao":"Logística" },
+      { "nome": "Tiago Silva", "foto": "", "funcao":"Logística" }
     ],
 
-    "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+    "voluntarios": [
+        { "nome": "Dulce Silva" },
+        { "nome": "Sara Vieira" },
+        { "nome": "Venera Aitkul" },
+        { "nome": "Ana Santos" },
+        { "nome": "André Botelho" },
+        { "nome": "Eduardo Martins" },
+        { "nome": "Bruna Oliveira" },
+        { "nome": "Rafael Santos" },
+        { "nome": "Filipe Terroso" },
+        { "nome": "Ivana Rodrigues" },
+        { "nome": "Rosana Soares" },
+        { "nome": "João Martins" },
+        { "nome": "Pedro Caires" },
+        { "nome": "Miguel Rangel" }
+      ]
   },
 
   "2018": {
     "nome_evento": "MAD > GAME > <br>JAM > 2018",
     "ano": "2018",
     "logotipo_evento_ano": "images/logo_2017_2018.svg",
+    "link_logotipo": "https://intermediartes.com/gamejam/2018.html",
     "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
@@ -316,37 +368,59 @@
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º lugar", "nome_projeto": "GAME'S OVEN", "nome_participantes": ["Beatriz Abreu", "José Ribeiro", "Igor Lima", "Diogo Pereira", "Pedro Fernandes"], "imagem": "images/Arquivo/Neon Switch.png" },
+          { "lugar": "2º lugar", "nome_projeto": "MOSES MAKES ME WET", "nome_participantes": ["Moises Moreira", "Débora Almeida", "Carlos Costa", "Pedro Gomes", "Jacky Filipe"], "imagem": "images/Arquivo/MMMW.png" },
+          { "lugar": "3º lugar", "nome_projeto": "DEADMANTALES", "nome_participantes": ["André Marques", "Isac da Luz", "Carlos Paula", "José Rodrigues", "António Santos"], "imagem": "images/Arquivo/DeadManTales.png" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+      { "nome": "Luís Leite", "foto": "", "funcao":"Organização" },
+      { "nome": "João Azevedo", "foto": "", "funcao":"Organização" },
+      { "nome": "Hugo Lopes", "foto": "", "funcao":"Organização" },
+      { "nome": "Bruno Oliveira", "foto": "", "funcao":"Organização" },
+      { "nome": "Filipe Martins ", "foto": "", "funcao":"Organização" },
+      { "nome": "Ricardo Queirós", "foto": "", "funcao":"Organização" },
+      { "nome": "Pedro Serapicos", "foto": "", "funcao":"Organização"},
+      { "nome": "Tiago Dionisio", "foto": "", "funcao":"Organização" },
+      { "nome": "Dulce Silva", "foto": "", "funcao":"Design" },
+      { "nome": "Rosana Soares", "foto": "", "funcao":"Comunicação" }
+    ],
+
+    "voluntarios": [
+        { "nome": "Dulce Catarina Gomes Ribeiro" },
+        { "nome": "Mariana Encarnação Vieira" },
+        { "nome": "Ana Couto" },
+        { "nome": "Márcia Tavares Lima" },
+        { "nome": "Rafael Teixeira de Sousa" },
+        { "nome": "Sofia Ivana Cardoso" },
+        { "nome": "Eduardo Daniel Martins" },
+        { "nome": "João Filipe Vaz Martins" },
+        { "nome": "Sara Catarina Vieira" },
+        { "nome": "André Botelho Ribeiro" },
+        { "nome": "Bruna Olveira" },
+        { "nome": "Marcello Ferreira" },
+        { "nome": "Justiniano Terroso" },
+        { "nome": "Ana Mafalda" },
+        { "nome": "Venera Aitkul" }
+      ]
   },
 
   "2017": {
     "nome_evento": "MAD > GAME > <br>JAM > 2017",
     "ano": "2017",
     "logotipo_evento_ano": "images/logo_2017_2018.svg",
+    "link_logotipo": "",
     "video_ano": "images/animation_video.mp4",
 
     "premiados_jams": [
@@ -354,31 +428,54 @@
         "tipo_jam": "GAME",
         "cor": "#0F60FF",
         "premiados": [
-          { "lugar": "1º lugar", "nome_projeto": "PIXEL RUSH", "imagem": "images/vencedor.svg" }
+          { "lugar": "1º lugar", "nome_projeto": "HAKUNA", "nome_participantes": ["Alexandra Silva", "Renato Santos", "Ricardo Carvalho"],"imagem": "" },
+          { "lugar": "2º lugar", "nome_projeto": "HELLVETICA", "nome_participantes": ["Anistalda Gomes", "Francisco Almeida", "Henrique Ferreira", "Inês Silva"], "imagem": "" },
+          { "lugar": "3º lugar", "nome_projeto": "COFFEE FOR THE WIN", "nome_participantes": ["André Maques", "André Matos", "Isac Luz"], "imagem": "" }
         ]
       }
     ],
 
     "galeria": [
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg",
-      "images/vencedor.svg"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
 
     "equipa_organizadora": [
-      { "nome": "Ana Silva", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" },
-      { "nome": "João Costa", "foto": "images/organizador.svg" }
-    ]
+      { "nome": "Luís Leite", "foto": "", "funcao":"Organização"},
+      { "nome": "João Azevedo", "foto": "", "funcao":"Organização" },
+      { "nome": "Mario Pinto", "foto": "", "funcao":"Organização" },
+      { "nome": "Ricardo Queirós", "foto": "", "funcao":"Organização" },
+      { "nome": "Filipe Martins", "foto": "", "funcao":"Organização" },
+      { "nome": "Alberto Simões", "foto": "", "funcao":"Organização" },
+      { "nome": "Pedro Serapicos", "foto": "", "funcao":"Design" },
+      { "nome": "João Costa", "foto": "", "funcao":"Reportagem" }
+    ],
+
+    "voluntarios": [
+        { "nome": "Marcello Ferreira" },
+        { "nome": "Dulce Silva" },
+        { "nome": "Filipe Meunier" },
+        { "nome": "Andreia Costa" },
+        { "nome": "Nuno Castilho" },
+        { "nome": "Adriana Macedo" },
+        { "nome": "Rui Santos" },
+        { "nome": "Inês Silva" },
+        { "nome": "Rui Vasques" },
+        { "nome": "Hugo Lopes" },
+        { "nome": "Carlos Paula" },
+        { "nome": "Frederico Amaral" },
+        { "nome": "Joana Catarina" },
+        { "nome": "Mariana Silva" },
+        { "nome": "João Rafael da Silva Santos" },
+        { "nome": "Paulo Jorge Fernandes" },
+        { "nome": "Ricardo Leite" },
+        { "nome": "João Giesteira" },
+        { "nome": "Leano Neves" }
+      ]
   }
 
 }
