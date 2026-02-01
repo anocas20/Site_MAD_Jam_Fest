@@ -120,3 +120,20 @@ function carregarDadosNavbar() {
     opcaoVideoJam.style.color = "#AB31AA";
   }
 }
+
+
+
+
+function moveCarousel(direction){
+
+  const track = document.getElementById("track");
+  const card = track.querySelector(".card");
+
+  const gap = 20;
+  const scrollAmount = card.offsetWidth + gap;
+
+  track.scrollBy({
+    left: direction * scrollAmount,
+    behavior: "smooth"
+  });
+}
